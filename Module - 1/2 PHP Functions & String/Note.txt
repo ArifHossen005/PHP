@@ -1,0 +1,4 @@
+//function 
+()    = parenthesis
+function =  keywords 
+default parameter always sese dite hobe ;
