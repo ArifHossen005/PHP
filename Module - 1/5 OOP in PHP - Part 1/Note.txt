@@ -1,0 +1,4 @@
+👉 constructor-এর মূল কাজই হলো object বানানোর সময় value ভেতরে ঢুকানো।
+👉 constructor থাকলে object তৈরি করার সময়ই value object-এর ভেতরে ঢুকিয়ে দেওয়া যায়।
+
+Private property ke access korte hole getter function korte hoi eta valo practice 
