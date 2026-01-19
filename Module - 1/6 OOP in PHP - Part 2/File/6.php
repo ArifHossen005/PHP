@@ -1,9 +1,11 @@
 <?php
 
+use Account as GlobalAccount;
+
 /**
  * Base Account class
  */
-class Account
+abstract class Account
 {
           protected $balance;
           protected $totalWithdrawn;
@@ -112,3 +114,6 @@ $business->withdraw(50000);
 $business->withdraw(50000);
 $business->withdraw(50000);
 $business->withdraw(50000);
+
+$account = new Account(200000);
+$account->deposit(50000);

@@ -1,0 +1,7 @@
+Abstract class হলো এমন একটি class:
+
+যেটা থেকে object তৈরি করা যায় না|
+
+
+
+

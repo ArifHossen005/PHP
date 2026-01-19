@@ -1,9 +1,15 @@
 <?php
 
-/**
- * Base Account class
- */
-class Account
+
+interface AccountInterface
+{
+          public function __construct($initialBalance);
+          public function deposit($amount);
+          public function withdraw($amount);
+          public function getBalance();
+}
+
+abstract class Account implements AccountInterface
 {
           protected $balance;
           protected $totalWithdrawn;
@@ -112,3 +118,6 @@ $business->withdraw(50000);
 $business->withdraw(50000);
 $business->withdraw(50000);
 $business->withdraw(50000);
+
+$account = new Account(200000);
+$account->deposit(50000);
